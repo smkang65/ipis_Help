@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아이피스(iPiS) 시스템 도움말 및 사용자 설명서</title>
+    <style>
+        body {
+            font-family: 'Pretendard', 'Malgun Gothic', '맑은 고딕', sans-serif;
+            background-color: #f4f6f9;
+            color: #2c3e50;
+            padding: 40px 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border-top: 5px solid #1a5276;
+        }
+        h1 {
+            font-size: 24px;
+            color: #1a5276;
+            margin-bottom: 8px;
+        }
+        p.subtitle {
+            color: #7f8c8d;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        .category-title {
+            font-size: 18px;
+            color: #34495e;
+            border-bottom: 2px solid #ebedf0;
+            padding-bottom: 8px;
+            margin: 25px 0 15px;
+        }
+        .doc-list {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+            gap: 15px;
+        }
+        .doc-card {
+            border: 1px solid #e1e8ed;
+            border-radius: 8px;
+            padding: 16px 20px;
+            background: #fdfefe;
+            transition: all 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .doc-card:hover {
+            border-color: #3498db;
+            box-shadow: 0 4px 10px rgba(52, 152, 219, 0.15);
+            transform: translateY(-2px);
+        }
+        .doc-card a {
+            text-decoration: none;
+            color: #2980b9;
+            font-weight: 600;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+        .doc-card p {
+            color: #666;
+            font-size: 13px;
+            margin: 0;
+            line-height: 1.5;
+        }
+        .badge {
+            display: inline-block;
+            background: #e8f4fd;
+            color: #2980b9;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+            margin-top: 10px;
+            align-self: flex-start;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>아이피스(iPiS) 시스템 사용자 설명서 목차</h1>
+    <p class="subtitle">업무 화면별 상세 기능 가이드 및 매뉴얼 아카이브</p>
+
+    <div class="category-title">📦 재고관리</div>
+    <ul class="doc-list">
+        <li class="doc-card">
+            <div>
+                <a href="결산재고평가_보고서_사용자설명서.html">결산재고평가 보고서 사용자 설명서</a>
+                <p>회계 결산(반기/연도말) 시 선입선출법(FIFO)을 통한 도서별 기초·입고·출고(매출원가)·기말 평가액 산출 및 확정 저장 가이드</p>
+            </div>
+            <span class="badge">[재고관리] &gt; [결산재고평가 보고서]</span>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>
